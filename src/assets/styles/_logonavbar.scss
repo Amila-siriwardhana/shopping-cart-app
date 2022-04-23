@@ -1,0 +1,45 @@
+*{
+    font-family:"Montserrat",sans-serif;
+    width: auto;
+}
+.logo{
+    color: #4caf50;
+    font-size: 2rem;
+    font-weight: 550;
+    padding-right: 4rem;
+}
+.logonavbar{
+    font-size: 0.9rem;   
+}
+// .logobar{
+//     position: fixed;
+// }
+.checkbutton{
+    color: white;
+    background-color: #4caf50;
+    border-color: #4caf50;
+    border-radius: 5%;
+    font-size: 0.9rem;
+    width: 50%;
+    height: 2rem; 
+}
+.cbutton{
+    font-size: 1.1rem;
+}
+.logobar{
+   padding-left: 7rem;
+}
+.cart{
+    display:inline-flex;
+    justify-content: flex-end;
+    color: #4caf50; 
+}
+.logonavbar{
+    box-shadow: 0 4px 1px -2px #ede9e8;
+    margin-top: 1rem;
+
+}
+img{
+    width: 9rem;
+    height: 4rem;
+}

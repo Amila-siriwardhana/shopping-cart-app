@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TopNavBar from './Components/TopNavBar';
+import LogoNavBar from './Components/LogoNavBar';
+import RedirectNavBar from './Components/RedirectNavBar';
+import Banner from './Components/Banner';
+import SearchBar from './Components/SearchBar';
+import Products from './Components/Products';
+import Grocery from './Components/Grocery';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopNavBar />
+      <LogoNavBar />
+      <RedirectNavBar />
+      <Banner />
+      <SearchBar />
+      <Products />
+      <Grocery />
     </div>
   );
 }

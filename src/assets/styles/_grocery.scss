@@ -1,0 +1,65 @@
+.title{
+    display: flex;
+    justify-content: start;
+    color: black;
+    font-size: 1.2rem;
+}
+.total{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.itemcolumn{
+    display: flex;
+    justify-content: center;
+    column-width: 10px;
+    padding-right: 500px;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 320px;
+    width: 250px;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.image{
+    margin-top: 1rem;
+    width: 80%;
+    height: 50%;
+}
+.addcartbutton{
+    color: white;
+    background-color:#4caf50;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    height: 2.5rem;
+}
+.inputfield2{
+    margin-left: 20px;
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid black;
+}
+.oldprice{
+    text-decoration: line-through;
+}
+.newprice{
+    color: #4caf50;
+}
+.itemname{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.itemsrow{
+    display: flex;
+    width: 80%;
+
+}
+.itemscontainer{
+    display: flex;
+    justify-content: center;
+}

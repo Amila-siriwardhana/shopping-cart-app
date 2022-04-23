@@ -1,0 +1,23 @@
+
+.navbar{
+    padding-left: 7rem;
+    margin-top: 1.1rem;
+}
+.category{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pricelink{
+    border: 1px solid #e50050;
+    border-radius: 0.3rem;
+
+}
+.pricelink:hover{
+    background-color: #e50050;
+    span{
+        color: white;
+    }
+}
+    
+    
+

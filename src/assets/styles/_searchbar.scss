@@ -1,0 +1,30 @@
+.containerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+
+   
+}
+.searchbar{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 300px;
+
+}
+.inputfield{
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    right: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.searchbutton{
+    position: relative;
+    right: 60px;
+}
+.searchbar:hover{
+    border-color:#4caf50 ;
+}
