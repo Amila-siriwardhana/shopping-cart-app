@@ -1,0 +1,29 @@
+.nav-container {
+  height: 5vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: white;
+  box-shadow: 1px 1px 4px #888888;
+  // width: 100vw !important;
+  // min-width: 100vw !important;
+}
+.sign-in-button {
+  background-color: white;
+  color: #4caf50;
+  border: 1px solid white;
+  border-radius: 0.2rem !important;
+}
+.log-in-button {
+  background-color: white;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  border-radius: 0.2rem !important;
+}
+
+.item {
+  color: white;
+}
+* {
+  background-color: white;
+  color: #858584;
+}
